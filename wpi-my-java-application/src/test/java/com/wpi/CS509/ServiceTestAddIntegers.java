@@ -4,7 +4,18 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class ServiceTestAddIntegers {
+/**
+ * Test class for the Service class's add method.
+ *
+ * @author Tabnine
+ */
+public class ServiceTestAddIntegers {
+
+    /**
+     * Test method for two plus two equals four.
+     *
+     * @see Service#add(int, int)
+     */
     @Test
     void twoPlusTwoEqualsFour() {
         Service service = new Service();
@@ -12,6 +23,11 @@ class ServiceTestAddIntegers {
         assertEquals(4, result);
     }
 
+    /**
+     * Test method for three plus seven equals ten.
+     *
+     * @see Service#add(int, int)
+     */
     @Test
     void threePlusSevenEqualsTen() {
         Service service = new Service();
