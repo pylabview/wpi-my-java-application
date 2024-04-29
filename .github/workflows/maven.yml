@@ -28,7 +28,7 @@ jobs:
   publish-job:
     runs-on: ubuntu-latest
     permissions:
-      contents: write, read  #
+      contents: write  #
       packages: read
     needs: build_test
     steps:
