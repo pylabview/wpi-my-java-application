@@ -1,6 +1,6 @@
 
 
-name: Java Maven Build & Publish Artifact
+name: Java Maven Build, Java Doc Generation & Publish Artifact
 
 on:
   push:
