@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"com.wpi.CS509","l":"Main"},{"p":"com.wpi.CS509","l":"Service"}];updateSearchResults();
