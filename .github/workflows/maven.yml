@@ -27,6 +27,8 @@ jobs:
    
   publish-job:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  #
     needs: build_test
     steps:
     - uses: actions/checkout@v3
@@ -41,7 +43,7 @@ jobs:
         name: Package
         path: staging
     - name: Deploy JavaDoc 🚀
-      uses: MathieuSoysal/Javadoc-publisher.yml@v2.5.0
+      uses: MathieuSoysal/Javadoc-publisher.yml@v2.5.0 
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         javadoc-branch: javadoc
