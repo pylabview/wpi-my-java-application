@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="wpi-my-java-application:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/wpi_my_java_application_jar</output-path>
-    <root id="archive" name="wpi-my-java-application.jar">
-      <element id="module-output" name="wpi-my-java-application" />
-    </root>
-  </artifact>
-</component>
